@@ -4,8 +4,21 @@
   "description": "Build tool showcase",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --open --mode development",
+    "build": "webpack --mode production"
   },
   "author": "Eric Obeng",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "lodash": "^4.17.21",
+    "sass": "^1.78.0",
+    "sass-loader": "^16.0.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
 }

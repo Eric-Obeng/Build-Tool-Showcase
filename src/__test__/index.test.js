@@ -1,5 +1,5 @@
 import { jest } from "@jest/globals";
-import { fetchBuildTools, displayBuildTools, handleFetchError } from "../index"; // Adjust the path if necessary
+import { fetchBuildTools, displayBuildTools, handleFetchError } from "../index";
 
 describe("Build Tools List", () => {
   let buildToolsList;

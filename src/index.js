@@ -23,9 +23,12 @@ export const displayBuildTools = (tools) => {
     listItem.className = "tool-item";
 
     listItem.innerHTML = `
-        <h3>${tool.name}</h3>
-        <p>${tool.description}</p>
-        <a href="${tool.website}" target="_blank">Learn More</a>
+        <h3 class="name">${tool.name}</h3>
+        <div class="img-div">
+        <img class="image" src="${tool.image}" alt="${tool.name} icon"/>
+        </div>
+        <p class="desc">${tool.description}</p>
+        <a class="link" href="${tool.website}" target="_blank">Learn More</a>
     `;
 
     buildToolsList.appendChild(listItem);

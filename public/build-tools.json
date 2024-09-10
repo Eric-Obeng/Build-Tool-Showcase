@@ -2,16 +2,31 @@
   {
     "name": "Webpack",
     "description": "A static module bundler for modern JavaScript applications.",
-    "website": "https://webpack.js.org/"
+    "website": "https://webpack.js.org/",
+    "image": "images/webpack.svg"
   },
   {
     "name": "Gulp",
     "description": "A toolkit for automating painful or time-consuming tasks in your development workflow.",
-    "website": "https://gulpjs.com/"
+    "website": "https://gulpjs.com/",
+    "image": "images/gulp.svg"
   },
   {
     "name": "Parcel",
     "description": "A fast, zero-configuration web application bundler.",
-    "website": "https://parceljs.org/"
+    "website": "https://parceljs.org/",
+    "image": "images/parcel.png"
+  },
+  {
+    "name": "Vite",
+    "description": "A next-generation, front-end tool that focuses on speed and performance.",
+    "website": "https://vitejs.dev/",
+    "image": "https://vitejs.dev/logo.svg"
+  },
+  {
+    "name": "Grunt",
+    "description": "A JavaScript task runner that helps automate repetitive tasks in your development workflow.",
+    "website": "https://gruntjs.com/",
+    "image": "images/grunt.svg"
   }
 ]

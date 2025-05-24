@@ -75,6 +75,4 @@ processes, dependency management, and basic web development concepts.
 
     \_Parameters:
 
-    - jest: Executes the Jest test runner, which looks for test files and runs the tests defined in them.
-
-
+    - jest: Executes the Jest test runner, which looks for test files and runs the tests defined in them

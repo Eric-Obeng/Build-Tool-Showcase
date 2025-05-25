@@ -70,9 +70,7 @@ processes, dependency management, and basic web development concepts.
     - eslint src/\*_/_.js: Lints all JavaScript files in the src directory and its subdirectories.
 
 4.  "test": "jest"
-
     - Purpose: This script runs tests using Jest, a popular testing framework for JavaScript.
 
     \_Parameters:
-
     - jest: Executes the Jest test runner, which looks for test files and runs the tests defined in them
